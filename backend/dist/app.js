@@ -18,8 +18,8 @@ const server = http_1.default.createServer(app);
 exports.server = server;
 const io = new socket_io_1.Server(server, {
     cors: {
-        origin: "*", // Adjust based on your frontend URL
-        methods: ["GET", "POST"],
+        origin: "http://82.112.226.214", // or "*"
+        methods: ["GET", "POST"]
     },
 });
 exports.io = io;

@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { Header } from "../components/header";
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import { Footer } from "../components/footer";
 import { HomePage } from "../components/homePage";
 import { ProfilePage } from "../components/profilePage";
@@ -40,9 +40,9 @@ import { VerifiedKyc } from "../adminComponents/verifiedKyc";
 
 export const UserPage = ()=>{
 
-      const { login  } = useUserContext();
+    //   const { login  } = useUserContext();
       const [ name , ] =useState("");
-      const navigate = useNavigate();
+    //   const navigate = useNavigate();
 
       const { adminClicked } = useUserContext();
 
