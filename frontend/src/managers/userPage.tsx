@@ -46,11 +46,11 @@ export const UserPage = ()=>{
 
       const { adminClicked } = useUserContext();
 
-      useEffect(()=>{
-        if(login === true){
-          navigate('/winCash')
-        }
-      },[login])
+      // useEffect(()=>{
+      //   if(login === true){
+      //     navigate('/winCash')
+      //   }
+      // },[login])
 
   
     return (

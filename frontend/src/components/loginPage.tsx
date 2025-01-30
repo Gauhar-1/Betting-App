@@ -64,7 +64,7 @@ export const LoginPage = () => {
         setUserId(response.data.userId);
         setLogin(true);
         setPhoneNumber(phoneNumber);
-        navigate("/profile");
+        navigate("/winCash");
       } else {
         toast.error(response.data.message || "Invalid OTP.");
       }

@@ -19,6 +19,11 @@
     "twilio": "^5.4.0",
     "yarn": "^1.22.22"
   },
+ "scripts": {
+  "dev": "ts-node-dev src/server.ts",
+   "start": "node dist/server.js"
+},
+
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
     "@types/cors": "^2.8.17",
